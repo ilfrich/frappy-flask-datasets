@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name="frappyflaskdataset",
-      version="1.3.2",
+      version="1.3.3",
       description="Flask Endpoints for Data Set Management and Retrieval",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setup(name="frappyflaskdataset",
       ],
       install_requires=[
             "flask",
-            "pbu",
+            "pbu>=1.0.0",
       ],
       tests_require=[
           "pytest",
